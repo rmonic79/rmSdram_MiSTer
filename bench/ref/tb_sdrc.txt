@@ -1,0 +1,66 @@
+== 48000 kHz corner 0 chips 2 column bits 10 two-clock 0
+READY at 200.4 us (CLK 48000 kHz, corner 0, chips 2, column bits 10, two clock tRRD/tWR/tMRD 0)
+W_BTB   n=512  cycles/op=2.00
+W_GAP   n=256  gap=12  wait-to-accept/op=1.00  max=1
+R_LINE  n=128  request-to-last-beat/op=15.21  max=21  period/op=16.20
+R_ONE   n=256  request-to-last-beat/op=9.11  max=13  period/op=10.11
+MIXED   n=4000  period/op=4.08
+REFRESH after ready: U1 67  U2 67  due 68.3 per chip
+CHECK   data_errors=0  chip_errors=0  ready U1=1 U2=1  bench_errors=0
+== 48000 kHz corner 1 chips 2 column bits 10 two-clock 0
+READY at 200.4 us (CLK 48000 kHz, corner 1, chips 2, column bits 10, two clock tRRD/tWR/tMRD 0)
+W_BTB   n=512  cycles/op=2.00
+W_GAP   n=256  gap=12  wait-to-accept/op=1.00  max=1
+R_LINE  n=128  request-to-last-beat/op=15.21  max=21  period/op=16.20
+R_ONE   n=256  request-to-last-beat/op=9.11  max=13  period/op=10.11
+MIXED   n=4000  period/op=4.08
+REFRESH after ready: U1 67  U2 67  due 68.3 per chip
+CHECK   data_errors=0  chip_errors=0  ready U1=1 U2=1  bench_errors=0
+== 66667 kHz corner 0 chips 2 column bits 10 two-clock 0
+READY at 200.4 us (CLK 66667 kHz, corner 0, chips 2, column bits 10, two clock tRRD/tWR/tMRD 0)
+W_BTB   n=512  cycles/op=2.00
+W_GAP   n=256  gap=12  wait-to-accept/op=1.00  max=1
+R_LINE  n=128  request-to-last-beat/op=15.17  max=23  period/op=16.16
+R_ONE   n=256  request-to-last-beat/op=9.08  max=17  period/op=10.08
+MIXED   n=4000  period/op=4.07
+REFRESH after ready: U1 48  U2 48  due 49.1 per chip
+CHECK   data_errors=0  chip_errors=0  ready U1=1 U2=1  bench_errors=0
+== 66667 kHz corner 1 chips 2 column bits 10 two-clock 0
+READY at 200.4 us (CLK 66667 kHz, corner 1, chips 2, column bits 10, two clock tRRD/tWR/tMRD 0)
+W_BTB   n=512  cycles/op=2.00
+W_GAP   n=256  gap=12  wait-to-accept/op=1.00  max=1
+R_LINE  n=128  request-to-last-beat/op=15.17  max=23  period/op=16.16
+R_ONE   n=256  request-to-last-beat/op=9.08  max=17  period/op=10.08
+MIXED   n=4000  period/op=4.07
+REFRESH after ready: U1 48  U2 48  due 49.1 per chip
+CHECK   data_errors=0  chip_errors=0  ready U1=1 U2=1  bench_errors=0
+== 48000 kHz corner 0 chips 1 column bits 9 two-clock 1
+READY at 200.9 us (CLK 48000 kHz, corner 0, chips 1, column bits 9, two clock tRRD/tWR/tMRD 1)
+W_BTB   n=256  cycles/op=2.00
+W_GAP   n=256  gap=12  wait-to-accept/op=1.00  max=1
+R_LINE  n=64  request-to-last-beat/op=15.28  max=21  period/op=16.27
+R_ONE   n=256  request-to-last-beat/op=9.10  max=13  period/op=10.10
+MIXED   n=4000  period/op=4.94
+[U2] no chip (one chip board): commands seen 0  ncs high 0 cycles
+REFRESH after ready: U1 73  U2 0  due 73.5 per chip
+CHECK   data_errors=0  chip_errors=0  ready U1=1 U2=0  bench_errors=0
+== 48000 kHz corner 1 chips 1 column bits 9 two-clock 1
+READY at 200.9 us (CLK 48000 kHz, corner 1, chips 1, column bits 9, two clock tRRD/tWR/tMRD 1)
+W_BTB   n=256  cycles/op=2.00
+W_GAP   n=256  gap=12  wait-to-accept/op=1.00  max=1
+R_LINE  n=64  request-to-last-beat/op=15.28  max=21  period/op=16.27
+R_ONE   n=256  request-to-last-beat/op=9.10  max=13  period/op=10.10
+MIXED   n=4000  period/op=4.94
+[U2] no chip (one chip board): commands seen 0  ncs high 0 cycles
+REFRESH after ready: U1 73  U2 0  due 73.5 per chip
+CHECK   data_errors=0  chip_errors=0  ready U1=1 U2=0  bench_errors=0
+== 48000 kHz corner 0 chips 1 column bits 10 two-clock 0
+READY at 200.4 us (CLK 48000 kHz, corner 0, chips 1, column bits 10, two clock tRRD/tWR/tMRD 0)
+W_BTB   n=512  cycles/op=2.00
+W_GAP   n=256  gap=12  wait-to-accept/op=1.00  max=1
+R_LINE  n=128  request-to-last-beat/op=15.21  max=21  period/op=16.20
+R_ONE   n=256  request-to-last-beat/op=9.11  max=13  period/op=10.11
+MIXED   n=4000  period/op=4.33
+[U2] no chip (one chip board): commands seen 0  ncs high 0 cycles
+REFRESH after ready: U1 71  U2 0  due 71.0 per chip
+CHECK   data_errors=0  chip_errors=0  ready U1=1 U2=0  bench_errors=0

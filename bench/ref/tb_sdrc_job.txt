@@ -1,0 +1,40 @@
+== 48000 kHz corner 0 chips 2 column bits 10 two-clock 0 BL_BITS 9 LEN_BITS 4 FIXED1 0
+READY at 200.4 us (CLK 48000 kHz, corner 0, chips 2, column bits 10, W9825G6KH timings 0, BL_BITS 9, LEN_BITS 4, FIXED1 0)
+JOBS      J0 write jobs=511 read jobs=307 (from pending 181, replaced 57, rd+wr 79)  J1 read jobs=810 (from pending 97)
+WORDS     written=141316  read J0=84681 J1=225351
+[U1] errors=0 ACT=2897 READ=167998 (words 167998) WRITE=74379 (words 74379) PRE=2581 REF=1301 ready=1 CL=2 BL=1
+[U2] errors=0 ACT=2354 READ=142034 (words 142034) WRITE=60320 (words 60320) PRE=2051 REF=1301 ready=1 CL=2 BL=1
+CHECK     data_errors=0  protocol_errors=0  chip_errors=0  bench_errors=0
+== 48000 kHz corner 1 chips 2 column bits 10 two-clock 0 BL_BITS 9 LEN_BITS 4 FIXED1 0
+READY at 200.4 us (CLK 48000 kHz, corner 1, chips 2, column bits 10, W9825G6KH timings 0, BL_BITS 9, LEN_BITS 4, FIXED1 0)
+JOBS      J0 write jobs=511 read jobs=307 (from pending 181, replaced 57, rd+wr 79)  J1 read jobs=810 (from pending 97)
+WORDS     written=141316  read J0=84681 J1=225351
+[U1] errors=0 ACT=2897 READ=167998 (words 167998) WRITE=74379 (words 74379) PRE=2581 REF=1301 ready=1 CL=2 BL=1
+[U2] errors=0 ACT=2354 READ=142034 (words 142034) WRITE=60320 (words 60320) PRE=2051 REF=1301 ready=1 CL=2 BL=1
+CHECK     data_errors=0  protocol_errors=0  chip_errors=0  bench_errors=0
+== 66667 kHz corner 0 chips 2 column bits 10 two-clock 0 BL_BITS 9 LEN_BITS 4 FIXED1 0
+READY at 200.4 us (CLK 66667 kHz, corner 0, chips 2, column bits 10, W9825G6KH timings 0, BL_BITS 9, LEN_BITS 4, FIXED1 0)
+JOBS      J0 write jobs=504 read jobs=313 (from pending 172, replaced 52, rd+wr 68)  J1 read jobs=801 (from pending 91)
+WORDS     written=140970  read J0=91264 J1=217304
+[U1] errors=0 ACT=2603 READ=155188 (words 155188) WRITE=67173 (words 67173) PRE=2335 REF=929 ready=1 CL=2 BL=1
+[U2] errors=0 ACT=2459 READ=153380 (words 153380) WRITE=67303 (words 67303) PRE=2186 REF=929 ready=1 CL=2 BL=1
+CHECK     data_errors=0  protocol_errors=0  chip_errors=0  bench_errors=0
+== 48000 kHz corner 0 chips 1 column bits 9 two-clock 1 BL_BITS 9 LEN_BITS 4 FIXED1 0
+READY at 200.9 us (CLK 48000 kHz, corner 0, chips 1, column bits 9, W9825G6KH timings 1, BL_BITS 9, LEN_BITS 4, FIXED1 0)
+JOBS      J0 write jobs=515 read jobs=304 (from pending 184, replaced 71, rd+wr 83)  J1 read jobs=790 (from pending 84)
+WORDS     written=145399  read J0=83320 J1=209409
+[U1] errors=0 ACT=6019 READ=292729 (words 292729) WRITE=138522 (words 138522) PRE=4411 REF=1272 ready=1 CL=2 BL=1
+CHECK     data_errors=0  protocol_errors=0  chip_errors=0  bench_errors=0
+== 48000 kHz corner 0 chips 1 column bits 9 two-clock 1 BL_BITS 3 LEN_BITS 4 FIXED1 0
+READY at 200.9 us (CLK 48000 kHz, corner 0, chips 1, column bits 9, W9825G6KH timings 1, BL_BITS 3, LEN_BITS 4, FIXED1 0)
+JOBS      J0 write jobs=2699 read jobs=2688 (from pending 880, replaced 295, rd+wr 390)  J1 read jobs=3046 (from pending 223)
+WORDS     written=15351  read J0=11375 J1=12895
+[U1] errors=0 ACT=5766 READ=24270 (words 24270) WRITE=14968 (words 14968) PRE=5463 REF=197 ready=1 CL=2 BL=1
+CHECK     data_errors=0  protocol_errors=0  chip_errors=0  bench_errors=0
+== 48000 kHz corner 0 chips 2 column bits 10 two-clock 0 BL_BITS 4 LEN_BITS 4 FIXED1 1
+READY at 200.4 us (CLK 48000 kHz, corner 0, chips 2, column bits 10, W9825G6KH timings 0, BL_BITS 4, LEN_BITS 4, FIXED1 1)
+JOBS      J0 write jobs=9846 read jobs=1747 (from pending 868, replaced 222, rd+wr 386)  J1 read jobs=1927 (from pending 229)
+WORDS     written=9846  read J0=1747 J1=14730
+[U1] errors=0 ACT=1377 READ=8034 (words 8034) WRITE=4876 (words 4876) PRE=1299 REF=146 ready=1 CL=2 BL=1
+[U2] errors=0 ACT=1411 READ=8443 (words 8443) WRITE=4865 (words 4865) PRE=1307 REF=146 ready=1 CL=2 BL=1
+CHECK     data_errors=0  protocol_errors=0  chip_errors=0  bench_errors=0

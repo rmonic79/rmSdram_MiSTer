@@ -1,0 +1,39 @@
+# rmSdram: the source, its spec, the bench sources and the bench references go in.
+# Out: the datasheets (third-party material) and everything that is regenerated.
+
+datasheet/
+
+# ---- bench products (Verilator / C++) ----
+bench/obj*/
+bench/tmp/
+bench/out/
+obj_dir/
+*.o
+*.a
+*.d
+*.gch
+*.exe
+*.so
+*.dll
+
+# ---- waveforms, logs and markers ----
+*.vcd
+*.fst
+*.log
+*.done
+
+# ---- Quartus products ----
+db/
+incremental_db/
+output_files/
+*.qws
+*.rpt
+*.summary
+*.rbf
+*.sof
+
+# ---- misc ----
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

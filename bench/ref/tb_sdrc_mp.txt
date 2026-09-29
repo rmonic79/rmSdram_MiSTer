@@ -1,0 +1,186 @@
+== 48000 kHz corner 0 MAP 1 chips 2 column bits 10 command stage 1 two-clock 0 LB 6 directed 0
+READY at 200.4 us (CLK 48000 kHz, corner 0, MAP 1, chips 2, column bits 10, command stage 1, two clock tRRD/tWR/tMRD 0, LB 6, directed 0)
+P0 CPU    writes=30662 reads=1620  read latency avg=61.63 max=186  write wait cycles=161486
+P1 video  reads=4141  latency avg=86.77 max=170  underflows=0  fifo min=56  urgent cycles=228  frames published=47 switches=46
+P2 DMA    writes=14880 reads=3954  read latency avg=96.44 max=223  write wait cycles=135388
+P3 audio  reads=1171  latency avg=35.78 max=99 (deadline 256, late 0)  writes=1171  mailbox reads=178
+SLOT      max cycles a read waited in its slot: P0 179  P1 132  P2 122  P3 196  (AGE_MAX 64)
+BUS       run cycles=300000  READ=158404 WRITE=91398  ACT=13386 PRE=10773  column commands 83.3% of the cycles
+REFRESH   tREFI ticks=804  U1 done=804 debt=0  U2 done=804 debt=0  exact=1
+CHECK     data_errors=0  chip_errors=0  bench_errors=0  lost=0  underflows=0  audio_late=0  refresh_exact=1
+== 48000 kHz corner 1 MAP 1 chips 2 column bits 10 command stage 1 two-clock 0 LB 6 directed 0
+READY at 200.4 us (CLK 48000 kHz, corner 1, MAP 1, chips 2, column bits 10, command stage 1, two clock tRRD/tWR/tMRD 0, LB 6, directed 0)
+P0 CPU    writes=30662 reads=1620  read latency avg=61.63 max=186  write wait cycles=161486
+P1 video  reads=4141  latency avg=86.77 max=170  underflows=0  fifo min=56  urgent cycles=228  frames published=47 switches=46
+P2 DMA    writes=14880 reads=3954  read latency avg=96.44 max=223  write wait cycles=135388
+P3 audio  reads=1171  latency avg=35.78 max=99 (deadline 256, late 0)  writes=1171  mailbox reads=178
+SLOT      max cycles a read waited in its slot: P0 179  P1 132  P2 122  P3 196  (AGE_MAX 64)
+BUS       run cycles=300000  READ=158404 WRITE=91398  ACT=13386 PRE=10773  column commands 83.3% of the cycles
+REFRESH   tREFI ticks=804  U1 done=804 debt=0  U2 done=804 debt=0  exact=1
+CHECK     data_errors=0  chip_errors=0  bench_errors=0  lost=0  underflows=0  audio_late=0  refresh_exact=1
+== 66667 kHz corner 0 MAP 1 chips 2 column bits 10 command stage 1 two-clock 0 LB 6 directed 0
+READY at 200.4 us (CLK 66667 kHz, corner 0, MAP 1, chips 2, column bits 10, command stage 1, two clock tRRD/tWR/tMRD 0, LB 6, directed 0)
+P0 CPU    writes=30180 reads=1738  read latency avg=61.05 max=182  write wait cycles=154778
+P1 video  reads=4142  latency avg=85.00 max=182  underflows=0  fifo min=51  urgent cycles=139  frames published=46 switches=45
+P2 DMA    writes=15216 reads=4062  read latency avg=93.73 max=231  write wait cycles=135571
+P3 audio  reads=1171  latency avg=35.35 max=167 (deadline 256, late 0)  writes=1171  mailbox reads=197
+SLOT      max cycles a read waited in its slot: P0 169  P1 117  P2 130  P3 210  (AGE_MAX 64)
+BUS       run cycles=300000  READ=160345 WRITE=91367  ACT=12715 PRE=10557  column commands 83.9% of the cycles
+REFRESH   tREFI ticks=578  U1 done=578 debt=0  U2 done=578 debt=0  exact=1
+CHECK     data_errors=0  chip_errors=0  bench_errors=0  lost=0  underflows=0  audio_late=0  refresh_exact=1
+== 66667 kHz corner 1 MAP 1 chips 2 column bits 10 command stage 1 two-clock 0 LB 6 directed 0
+READY at 200.4 us (CLK 66667 kHz, corner 1, MAP 1, chips 2, column bits 10, command stage 1, two clock tRRD/tWR/tMRD 0, LB 6, directed 0)
+P0 CPU    writes=30180 reads=1738  read latency avg=61.05 max=182  write wait cycles=154778
+P1 video  reads=4142  latency avg=85.00 max=182  underflows=0  fifo min=51  urgent cycles=139  frames published=46 switches=45
+P2 DMA    writes=15216 reads=4062  read latency avg=93.73 max=231  write wait cycles=135571
+P3 audio  reads=1171  latency avg=35.35 max=167 (deadline 256, late 0)  writes=1171  mailbox reads=197
+SLOT      max cycles a read waited in its slot: P0 169  P1 117  P2 130  P3 210  (AGE_MAX 64)
+BUS       run cycles=300000  READ=160345 WRITE=91367  ACT=12715 PRE=10557  column commands 83.9% of the cycles
+REFRESH   tREFI ticks=578  U1 done=578 debt=0  U2 done=578 debt=0  exact=1
+CHECK     data_errors=0  chip_errors=0  bench_errors=0  lost=0  underflows=0  audio_late=0  refresh_exact=1
+== 48000 kHz corner 0 MAP 0 chips 2 column bits 10 command stage 1 two-clock 0 LB 6 directed 0
+READY at 200.4 us (CLK 48000 kHz, corner 0, MAP 0, chips 2, column bits 10, command stage 1, two clock tRRD/tWR/tMRD 0, LB 6, directed 0)
+P0 CPU    writes=28135 reads=1566  read latency avg=67.54 max=209  write wait cycles=158482
+P1 video  reads=4144  latency avg=86.06 max=167  underflows=0  fifo min=56  urgent cycles=317  frames published=43 switches=42
+P2 DMA    writes=15216 reads=4148  read latency avg=92.24 max=239  write wait cycles=134086
+P3 audio  reads=1171  latency avg=36.32 max=127 (deadline 256, late 0)  writes=1171  mailbox reads=172
+SLOT      max cycles a read waited in its slot: P0 196  P1 124  P2 130  P3 207  (AGE_MAX 64)
+BUS       run cycles=300000  READ=160221 WRITE=86954  ACT=13937 PRE=12814  column commands 82.4% of the cycles
+REFRESH   tREFI ticks=804  U1 done=804 debt=0  U2 done=804 debt=0  exact=1
+CHECK     data_errors=0  chip_errors=0  bench_errors=0  lost=0  underflows=0  audio_late=0  refresh_exact=1
+== 48000 kHz corner 1 MAP 0 chips 2 column bits 10 command stage 1 two-clock 0 LB 6 directed 0
+READY at 200.4 us (CLK 48000 kHz, corner 1, MAP 0, chips 2, column bits 10, command stage 1, two clock tRRD/tWR/tMRD 0, LB 6, directed 0)
+P0 CPU    writes=28135 reads=1566  read latency avg=67.54 max=209  write wait cycles=158482
+P1 video  reads=4144  latency avg=86.06 max=167  underflows=0  fifo min=56  urgent cycles=317  frames published=43 switches=42
+P2 DMA    writes=15216 reads=4148  read latency avg=92.24 max=239  write wait cycles=134086
+P3 audio  reads=1171  latency avg=36.32 max=127 (deadline 256, late 0)  writes=1171  mailbox reads=172
+SLOT      max cycles a read waited in its slot: P0 196  P1 124  P2 130  P3 207  (AGE_MAX 64)
+BUS       run cycles=300000  READ=160221 WRITE=86954  ACT=13937 PRE=12814  column commands 82.4% of the cycles
+REFRESH   tREFI ticks=804  U1 done=804 debt=0  U2 done=804 debt=0  exact=1
+CHECK     data_errors=0  chip_errors=0  bench_errors=0  lost=0  underflows=0  audio_late=0  refresh_exact=1
+== 66667 kHz corner 0 MAP 0 chips 2 column bits 10 command stage 1 two-clock 0 LB 6 directed 0
+READY at 200.4 us (CLK 66667 kHz, corner 0, MAP 0, chips 2, column bits 10, command stage 1, two clock tRRD/tWR/tMRD 0, LB 6, directed 0)
+P0 CPU    writes=28119 reads=1540  read latency avg=67.92 max=166  write wait cycles=159521
+P1 video  reads=4145  latency avg=85.77 max=173  underflows=0  fifo min=54  urgent cycles=462  frames published=43 switches=42
+P2 DMA    writes=15424 reads=4087  read latency avg=92.39 max=225  write wait cycles=135557
+P3 audio  reads=1171  latency avg=36.79 max=138 (deadline 256, late 0)  writes=1171  mailbox reads=176
+SLOT      max cycles a read waited in its slot: P0 157  P1 123  P2 116  P3 171  (AGE_MAX 64)
+BUS       run cycles=300000  READ=159918 WRITE=87497  ACT=13641 PRE=12824  column commands 82.5% of the cycles
+REFRESH   tREFI ticks=578  U1 done=578 debt=0  U2 done=578 debt=0  exact=1
+CHECK     data_errors=0  chip_errors=0  bench_errors=0  lost=0  underflows=0  audio_late=0  refresh_exact=1
+== 66667 kHz corner 1 MAP 0 chips 2 column bits 10 command stage 1 two-clock 0 LB 6 directed 0
+READY at 200.4 us (CLK 66667 kHz, corner 1, MAP 0, chips 2, column bits 10, command stage 1, two clock tRRD/tWR/tMRD 0, LB 6, directed 0)
+P0 CPU    writes=28119 reads=1540  read latency avg=67.92 max=166  write wait cycles=159521
+P1 video  reads=4145  latency avg=85.77 max=173  underflows=0  fifo min=54  urgent cycles=462  frames published=43 switches=42
+P2 DMA    writes=15424 reads=4087  read latency avg=92.39 max=225  write wait cycles=135557
+P3 audio  reads=1171  latency avg=36.79 max=138 (deadline 256, late 0)  writes=1171  mailbox reads=176
+SLOT      max cycles a read waited in its slot: P0 157  P1 123  P2 116  P3 171  (AGE_MAX 64)
+BUS       run cycles=300000  READ=159918 WRITE=87497  ACT=13641 PRE=12824  column commands 82.5% of the cycles
+REFRESH   tREFI ticks=578  U1 done=578 debt=0  U2 done=578 debt=0  exact=1
+CHECK     data_errors=0  chip_errors=0  bench_errors=0  lost=0  underflows=0  audio_late=0  refresh_exact=1
+== 48000 kHz corner 0 MAP 1 chips 2 column bits 10 command stage 1 two-clock 0 LB 11 directed 1
+READY at 200.4 us (CLK 48000 kHz, corner 0, MAP 1, chips 2, column bits 10, command stage 1, two clock tRRD/tWR/tMRD 0, LB 11, directed 1)
+DIRECTED  D1 (address above the memory) 0  D2 (three blocks) 4  data errors in them 0
+P0 CPU    writes=30166 reads=1741  read latency avg=60.62 max=198  write wait cycles=155703
+P1 video  reads=4141  latency avg=85.27 max=168  underflows=0  fifo min=56  urgent cycles=209  frames published=46 switches=45
+P2 DMA    writes=15328 reads=4117  read latency avg=94.08 max=1068  write wait cycles=134138
+P3 audio  reads=1171  latency avg=35.68 max=156 (deadline 256, late 0)  writes=1171  mailbox reads=203
+SLOT      max cycles a read waited in its slot: P0 185  P1 124  P2 134  P3 180  (AGE_MAX 64)
+BUS       run cycles=300000  READ=159435 WRITE=91167  ACT=13355 PRE=10660  column commands 83.5% of the cycles
+REFRESH   tREFI ticks=816  U1 done=816 debt=0  U2 done=816 debt=0  exact=1
+CHECK     data_errors=0  chip_errors=0  bench_errors=0  lost=0  underflows=0  audio_late=0  refresh_exact=1
+== 66667 kHz corner 0 MAP 0 chips 2 column bits 10 command stage 0 two-clock 0 LB 11 directed 1
+READY at 200.4 us (CLK 66667 kHz, corner 0, MAP 0, chips 2, column bits 10, command stage 0, two clock tRRD/tWR/tMRD 0, LB 11, directed 1)
+DIRECTED  D1 (address above the memory) 0  D2 (three blocks) 4  data errors in them 0
+P0 CPU    writes=28256 reads=1576  read latency avg=67.44 max=149  write wait cycles=157605
+P1 video  reads=4145  latency avg=83.95 max=169  underflows=0  fifo min=56  urgent cycles=276  frames published=43 switches=42
+P2 DMA    writes=15424 reads=4176  read latency avg=92.00 max=1075  write wait cycles=132667
+P3 audio  reads=1171  latency avg=35.09 max=122 (deadline 256, late 0)  writes=1171  mailbox reads=164
+SLOT      max cycles a read waited in its slot: P0 137  P1 120  P2 150  P3 233  (AGE_MAX 64)
+BUS       run cycles=300000  READ=159894 WRITE=87646  ACT=13690 PRE=12849  column commands 82.5% of the cycles
+REFRESH   tREFI ticks=587  U1 done=587 debt=0  U2 done=587 debt=0  exact=1
+CHECK     data_errors=0  chip_errors=0  bench_errors=0  lost=0  underflows=0  audio_late=0  refresh_exact=1
+== 48000 kHz corner 0 MAP 1 chips 1 column bits 9 command stage 0 two-clock 1 LB 10 directed 1
+READY at 200.9 us (CLK 48000 kHz, corner 0, MAP 1, chips 1, column bits 9, command stage 0, two clock tRRD/tWR/tMRD 1, LB 10, directed 1)
+DIRECTED  D1 (address above the memory) 32  D2 (three blocks) 4  data errors in them 0
+P0 CPU    writes=27975 reads=1356  read latency avg=64.06 max=217  write wait cycles=178558
+P1 video  reads=4145  latency avg=92.26 max=179  underflows=0  fifo min=52  urgent cycles=584  frames published=43 switches=42
+P2 DMA    writes=13008 reads=3491  read latency avg=102.43 max=557  write wait cycles=147546
+P3 audio  reads=1171  latency avg=35.48 max=123 (deadline 256, late 0)  writes=1171  mailbox reads=156
+SLOT      max cycles a read waited in its slot: P0 205  P1 127  P2 125  P3 200  (AGE_MAX 64)
+BUS       run cycles=300000  READ=151961 WRITE=82309  ACT=15732 PRE=13891  column commands 78.1% of the cycles
+REFRESH   tREFI ticks=816  U1 done=816 debt=0  U2 done=0 debt=0  exact=1
+NCS       cycles with ncs high=0
+CHECK     data_errors=0  chip_errors=0  bench_errors=0  lost=0  underflows=0  audio_late=0  refresh_exact=1
+== 48000 kHz corner 1 MAP 1 chips 1 column bits 9 command stage 0 two-clock 1 LB 10 directed 1
+READY at 200.9 us (CLK 48000 kHz, corner 1, MAP 1, chips 1, column bits 9, command stage 0, two clock tRRD/tWR/tMRD 1, LB 10, directed 1)
+DIRECTED  D1 (address above the memory) 32  D2 (three blocks) 4  data errors in them 0
+P0 CPU    writes=27975 reads=1356  read latency avg=64.06 max=217  write wait cycles=178558
+P1 video  reads=4145  latency avg=92.26 max=179  underflows=0  fifo min=52  urgent cycles=584  frames published=43 switches=42
+P2 DMA    writes=13008 reads=3491  read latency avg=102.43 max=557  write wait cycles=147546
+P3 audio  reads=1171  latency avg=35.48 max=123 (deadline 256, late 0)  writes=1171  mailbox reads=156
+SLOT      max cycles a read waited in its slot: P0 205  P1 127  P2 125  P3 200  (AGE_MAX 64)
+BUS       run cycles=300000  READ=151961 WRITE=82309  ACT=15732 PRE=13891  column commands 78.1% of the cycles
+REFRESH   tREFI ticks=816  U1 done=816 debt=0  U2 done=0 debt=0  exact=1
+NCS       cycles with ncs high=0
+CHECK     data_errors=0  chip_errors=0  bench_errors=0  lost=0  underflows=0  audio_late=0  refresh_exact=1
+== 48000 kHz corner 0 MAP 0 chips 1 column bits 9 command stage 0 two-clock 1 LB 10 directed 1
+READY at 200.9 us (CLK 48000 kHz, corner 0, MAP 0, chips 1, column bits 9, command stage 0, two clock tRRD/tWR/tMRD 1, LB 10, directed 1)
+DIRECTED  D1 (address above the memory) 32  D2 (three blocks) 4  data errors in them 0
+P0 CPU    writes=28108 reads=1436  read latency avg=66.30 max=165  write wait cycles=169813
+P1 video  reads=4144  latency avg=88.02 max=186  underflows=0  fifo min=50  urgent cycles=530  frames published=43 switches=42
+P2 DMA    writes=14640 reads=3915  read latency avg=95.48 max=568  write wait cycles=138233
+P3 audio  reads=1171  latency avg=35.34 max=110 (deadline 256, late 0)  writes=1171  mailbox reads=186
+SLOT      max cycles a read waited in its slot: P0 148  P1 127  P2 142  P3 194  (AGE_MAX 64)
+BUS       run cycles=300000  READ=156581 WRITE=85491  ACT=14115 PRE=12455  column commands 80.7% of the cycles
+REFRESH   tREFI ticks=817  U1 done=817 debt=0  U2 done=0 debt=0  exact=1
+NCS       cycles with ncs high=0
+CHECK     data_errors=0  chip_errors=0  bench_errors=0  lost=0  underflows=0  audio_late=0  refresh_exact=1
+== 66667 kHz corner 0 MAP 1 chips 1 column bits 9 command stage 1 two-clock 1 LB 10 directed 1
+READY at 200.8 us (CLK 66667 kHz, corner 0, MAP 1, chips 1, column bits 9, command stage 1, two clock tRRD/tWR/tMRD 1, LB 10, directed 1)
+DIRECTED  D1 (address above the memory) 32  D2 (three blocks) 4  data errors in them 0
+P0 CPU    writes=27978 reads=1386  read latency avg=65.07 max=217  write wait cycles=175539
+P1 video  reads=4145  latency avg=91.27 max=166  underflows=0  fifo min=57  urgent cycles=220  frames published=43 switches=42
+P2 DMA    writes=13504 reads=3689  read latency avg=98.70 max=558  write wait cycles=145973
+P3 audio  reads=1171  latency avg=36.02 max=140 (deadline 256, late 0)  writes=1171  mailbox reads=146
+SLOT      max cycles a read waited in its slot: P0 208  P1 123  P2 117  P3 194  (AGE_MAX 64)
+BUS       run cycles=300000  READ=151357 WRITE=83021  ACT=15476 PRE=14114  column commands 78.1% of the cycles
+REFRESH   tREFI ticks=588  U1 done=588 debt=0  U2 done=0 debt=0  exact=1
+NCS       cycles with ncs high=0
+CHECK     data_errors=0  chip_errors=0  bench_errors=0  lost=0  underflows=0  audio_late=0  refresh_exact=1
+== 66667 kHz corner 0 MAP 0 chips 1 column bits 9 command stage 1 two-clock 1 LB 10 directed 1
+READY at 200.8 us (CLK 66667 kHz, corner 0, MAP 0, chips 1, column bits 9, command stage 1, two clock tRRD/tWR/tMRD 1, LB 10, directed 1)
+DIRECTED  D1 (address above the memory) 32  D2 (three blocks) 4  data errors in them 0
+P0 CPU    writes=28112 reads=1441  read latency avg=67.62 max=197  write wait cycles=167538
+P1 video  reads=4145  latency avg=87.70 max=161  underflows=0  fifo min=58  urgent cycles=219  frames published=43 switches=42
+P2 DMA    writes=14928 reads=4063  read latency avg=93.43 max=571  write wait cycles=136418
+P3 audio  reads=1171  latency avg=37.46 max=216 (deadline 256, late 0)  writes=1171  mailbox reads=168
+SLOT      max cycles a read waited in its slot: P0 179  P1 124  P2 104  P3 221  (AGE_MAX 64)
+BUS       run cycles=300000  READ=156659 WRITE=86083  ACT=13785 PRE=12547  column commands 80.9% of the cycles
+REFRESH   tREFI ticks=588  U1 done=588 debt=0  U2 done=0 debt=0  exact=1
+NCS       cycles with ncs high=0
+CHECK     data_errors=0  chip_errors=0  bench_errors=0  lost=0  underflows=0  audio_late=0  refresh_exact=1
+== 48000 kHz corner 0 MAP 1 chips 1 column bits 10 command stage 0 two-clock 0 LB 11 directed 1
+READY at 200.4 us (CLK 48000 kHz, corner 0, MAP 1, chips 1, column bits 10, command stage 0, two clock tRRD/tWR/tMRD 0, LB 11, directed 1)
+DIRECTED  D1 (address above the memory) 32  D2 (three blocks) 4  data errors in them 0
+P0 CPU    writes=28256 reads=1538  read latency avg=61.64 max=177  write wait cycles=169479
+P1 video  reads=4141  latency avg=89.45 max=180  underflows=0  fifo min=52  urgent cycles=313  frames published=43 switches=42
+P2 DMA    writes=13504 reads=3722  read latency avg=99.63 max=1069  write wait cycles=142022
+P3 audio  reads=1171  latency avg=35.53 max=144 (deadline 256, late 0)  writes=1171  mailbox reads=174
+SLOT      max cycles a read waited in its slot: P0 169  P1 127  P2 134  P3 218  (AGE_MAX 64)
+BUS       run cycles=300000  READ=155560 WRITE=83596  ACT=16281 PRE=14416  column commands 79.7% of the cycles
+REFRESH   tREFI ticks=821  U1 done=821 debt=0  U2 done=0 debt=0  exact=1
+NCS       cycles with ncs high=0
+CHECK     data_errors=0  chip_errors=0  bench_errors=0  lost=0  underflows=0  audio_late=0  refresh_exact=1
+== 48000 kHz corner 0 MAP 0 chips 1 column bits 10 command stage 0 two-clock 0 LB 6 directed 1
+READY at 200.4 us (CLK 48000 kHz, corner 0, MAP 0, chips 1, column bits 10, command stage 0, two clock tRRD/tWR/tMRD 0, LB 6, directed 1)
+DIRECTED  D1 (address above the memory) 32  D2 (three blocks) 0  data errors in them 0
+P0 CPU    writes=28413 reads=1575  read latency avg=65.98 max=161  write wait cycles=160182
+P1 video  reads=4145  latency avg=84.90 max=155  underflows=0  fifo min=60  urgent cycles=72  frames published=43 switches=42
+P2 DMA    writes=15200 reads=4084  read latency avg=92.17 max=238  write wait cycles=135434
+P3 audio  reads=1171  latency avg=35.75 max=146 (deadline 256, late 0)  writes=1171  mailbox reads=178
+SLOT      max cycles a read waited in its slot: P0 149  P1 118  P2 128  P3 200  (AGE_MAX 64)
+BUS       run cycles=300000  READ=159912 WRITE=87006  ACT=14140 PRE=12331  column commands 82.3% of the cycles
+REFRESH   tREFI ticks=810  U1 done=810 debt=0  U2 done=0 debt=0  exact=1
+NCS       cycles with ncs high=0
+CHECK     data_errors=0  chip_errors=0  bench_errors=0  lost=0  underflows=0  audio_late=0  refresh_exact=1
